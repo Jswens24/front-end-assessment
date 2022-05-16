@@ -1,0 +1,97 @@
+body {
+	background: #ddd;
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 500px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.jess-pic {
+	border-radius: 50%;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid rgb(200, 200, 200);
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+}
+
+td,
+th {
+	border: 1px solid rgb(190, 190, 190);
+	padding: 10px 20px;
+}
+
+main {
+	width: 45vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 25px;
+}
+
+.skills-interests-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hobbies-head {
+	margin-top: 45px;
+	margin-bottom: 0;
+}
+
+.skills-head {
+	margin-bottom: -10px;
+	border-bottom: 2px solid rgb(190, 190, 190);
+}
+
+.career-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.career-head {
+	margin-bottom: -10px;
+	border-bottom: 2px solid rgb(190, 190, 190);
+}
+
+.fav-btn {
+	font-size: 25px;
+	padding: 15px 25px 15px 25px;
+	border-radius: 45%;
+	background-color: yellow;
+}
