@@ -2,9 +2,9 @@ console.log("hello world");
 
 
 
-function handleSubmit(evt) {
-	evt.preventDefault();
-
+function handleSubmit() {
+	// evt.preventDefault();
+	// console.log(evt);
 	alert('Form has been submitted successfully');
 }
 
